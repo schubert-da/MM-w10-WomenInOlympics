@@ -1,0 +1,59 @@
+#header{
+    position: absolute;
+    height: 350px;
+    width: 330px;
+    left: 450px;
+    top: 70px;
+
+    padding: 8px;
+
+    font-family: 'Helvetica';
+    font-size: 14px;
+    text-align: justify;
+    color: #333;
+}
+
+#header h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.vizContainer{
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.viz{
+    width: 700px;
+    margin: auto;
+    padding-top: 20px;
+
+    border: 1px solid #999;
+    border-radius: 5px;
+    
+    box-shadow: 3px 3px 3px 1px #999;
+}
+
+.gradientArea {							
+    fill: url(#area-gradient);					
+    stroke-width: 0px;			
+}
+
+#footer{
+    font-size: 13px;
+    color: #333;
+    font-family: 'Helvetica';
+
+    padding: 0 5px 5px 10px;
+}
+
+.domain{
+    stroke: #333;
+}
+
+.tick line{
+    stroke:#333;
+}
